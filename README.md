@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/assets/logo.png" width="180" alt="Bloop logo" />
+  <img src="Assets/Logo.png" width="180" alt="Bloop logo" />
 </p>
 
 <h1 align="center"><strong>Bloop</strong></h1>
@@ -13,9 +13,9 @@
 
 ## 🎮 Play it
 
-| Platform | Build | Link |
-|----------|-------|------|
-| Universal | v1.0 (stable) | **[Download Bloop](<GOOGLE-DRIVE-LINK>)** |
+| Link |
+|------|
+| **[Download Bloop](https://drive.google.com/drive/folders/1ofNYWiFoPyVjRL5LWic3DHSDaxCvfaQx?usp=sharing)** |
 
 > **Windows:** unzip and double-click `Bloop.exe`.  
 > **macOS / Linux:** run the launch script in the root folder.
@@ -25,8 +25,11 @@ If the download doesn’t work, clone this repo and build the game in **Unity 2D
 
 ## 🖼️ Screenshots
 <p align="center">
-  <img src="docs/assets/screen-01.jpg" width="45%" alt="Level 1" />
-  <img src="docs/assets/screen-02.png" width="45%" alt="Level Menu" />
+  <kbd>
+    <img src="Assets/screen-01.jpg" width="45%" alt="Level 1" />
+    <img src="Assets/Multiple Bloops.jpg" width="45%" alt="Multiple Bloops" />
+    <img src="Assets/Easter Egg.jpg" width="45%" alt="5 Easter Eggs Required" />    
+  </kbd>
 </p>
 
 ## 🗺️ How to Play
@@ -36,7 +39,7 @@ If the download doesn’t work, clone this repo and build the game in **Unity 2D
 | **Move**      | `←` / `→` **or** `A` / `D` |
 | **Jump**      | `Space` |
 | **Restart**   | `Esc` → **Restart** |
-| **Goal**      | Reach the portal to advance.<br>Grab every Easter egg to unlock the secret level! |
+| **Goal**      | Reach the portal to advance.<br>Grab every Easter egg to unlock the secret level! (It's possible, trust me) |
 
 ## 🔄 Resetting Progress
 
@@ -47,10 +50,3 @@ Developers & speed-runners can wipe saves for rapid testing:
 3. *Uncomment* the three lines marked **RESET-ON**  
 4. Play Level 1 — the game will auto-skip to the last level, clearing the save.  
 5. Revert the changes when you’re done.
-
-## 🛠️ Build & Contribute
-```bash
-git clone https://github.com/NotBoredGoon/Bloop.git
-cd Bloop
-# Open the project in Unity 2022 LTS (2D template)
-# Run the game or build via File → Build Settings
