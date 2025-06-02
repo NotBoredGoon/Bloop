@@ -43,10 +43,10 @@ If the download doesn’t work, clone this repo and build the game in **Unity 2D
 
 ## 🔄 Resetting Progress
 
-Developers & speed-runners can wipe saves for rapid testing:
+How to reset level progress as a developer:
 
 1. Open **`Scripts/GameUtil.cs`**  
-2. *Comment out* the two lines marked **RESET-OFF**  
-3. *Uncomment* the three lines marked **RESET-ON**  
+2. *Comment out* the two lines marked **comment-out when reseting level data**  
+3. *Uncomment* the three lines marked **Uncomment when reseting level data**  
 4. Play Level 1 — the game will auto-skip to the last level, clearing the save.  
 5. Revert the changes when you’re done.
